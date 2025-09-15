@@ -1,0 +1,11 @@
+#!/bin/bash
+# Simple vpython wrapper for testing
+# In a real project, this would activate virtual environment
+
+echo "📝 NOTE: Using simplified vpython wrapper"
+echo "   For full functionality, install virtual environment:"
+echo "   python -m venv venv && source venv/bin/activate"
+echo ""
+
+# Execute python with passed arguments
+exec python "$@"
